@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="BOIII - How to make themes">
+        <title>BOIII - How to make themes</title>
+        <center><font color="white" face="Helvetica" size="7">How to make themes for the BOIII client</font></center><br><hr color="f76805"><br>
+    </head>
+    <body bgcolor="#1c1c1c">
+    <center><font color="white" face="Helvetica">Please, don't get scared from the code. It's actually simple.</font></center><br><br>
+    <font color="white" face="Helvetica" size="6">Table of content:</font><br>
+    <font color="8ab4f8" face="Helvetica" size="4">| How to install themes <br>| Preset themes <br>| How to make your own themes</font><br><br>
+    <hr color="f76805"><font color="8ab4f8" face="Arial" size="5">How to install themes</font><hr color="f76805"><br><br>
+    <font color="white" face="Arial">First thing you have to do is to stop BOIII from updating.<br>This can be done easily by making a shortcut of boiii.exe, right clicking and adding "-noupdate" in the target field like this: <br><img src="Properties.png"><br>After that go to "%localappdata%\boiii\data\launcher" and place the theme files there.<br><br></font><font color="yellow" face="Arial" size="4">WARNING! Make sure to always launch the BOIII client from the shortcut or it'll delete the theme files!</font><br><br>
+    <hr color="f76805"><font color="8ab4f8" face="Arial" size="5">Preset themes</font><hr color="f76805"><br><br>
+    <font color="white" face="Arial">Before we get into the actual coding, here are some preset themes you can download if you're lazy</font><br><br>
+    <center><font color="white" face="Arial">Retro Sunset (animated background)</font><br></center><center><a href="https://mega.nz/file/QQcnWIab#cOJM7nVM-gV3jVJB1WI8iwl1czL2dIqsubr_X2kmzaE"><img src="retro.png" width="536" height="313"></center></a><br><br><br>
+    <center><font color="white" face="Arial">EZZ BOIII</font><br></center><center><a href="https://mega.nz/file/1AVWHITD#UG2-o2IIxIf_BWWUeYtd8lJl0AAtC_xUwjXlKQoS2c4"><img src="ezzboiii.png" width="536" height="313"></center></a><br><br><br>
+    <center><font color="white" face="Arial">Old BOIII</font><br></center><center><a href="https://mega.nz/file/AId3nZZT#oYEpWcASkrBbFvZme5g4-yuw_hHxIa2yoPq5JV7ouIo"><img src="oldboiii.png" width="536" height="313"></center></a><br><br><br>
+    <center><font color="white" face="Arial">BOIII Redux</font><br></center><center><a href="https://mega.nz/file/kIcVDawY#U-GGRlvTKw6VlqRRHLJO7G9iKmkGg19qxRf-0PJhLME"><img src="boiiiredux.png" width="536" height="313"></center></a><br><br><br>
+    <center><font color="white" face="Arial">Hehe BOIII (plays sound on startup)</font><br></center><center><a href="https://mega.nz/file/QZcxCL5S#WYUIBI3h_w6J0cfGgvMz8xj40nYOf7HAtDNTBO138fU"><img src="heheboiii.png" width="536" height="313"></center></a><br><br><br>
+    <hr color="f76805"><font color="8ab4f8" face="Arial" size="5">How to make you own themes</font><hr color="f76805"><br><br>
+    <font color="white" face="Arial">Now this part will either seem difficult or easy depending on your computer experience. To make your own theme you have to start by copying the main.html and bigboiii.jpg files from "%localappdata%\boiii\data\launcher". These will be the files we're modifying.
+        I reccomend using a coding program like notepad++ (or VS code if you're a full degenerate) to edit the files but notepad will do fine. <br><br>
+        <font color="8ab4f8">First, changing the background.</font> Changing the background is easy enough, all you need to do is to switch the bigboiii.jpg with any JPG image you want. However, making an animated background (basically a gif) is a bit more complex but should still be easy enough for a 5 year old. 
+        Open main.html with any text editing program. Press CTRL + F (usually the search shortcut) and look for "bigboiii.jpg". Once you find it just rename it to any gif name you want like this:<br><br>Before:<br><br><img src="tut1-1.png"><br><br>After:<br><img src="tut1-2.png"></font><br><br>
+        <hr color="white"><br>
+        <font color="8ab4f8" face="Arial">Secondly, Changing the color of the font.</font><font color="white" face="Arial"> Changing the color of the text on the client is easy but frustrating. First, find this string of code:<br><img src="tut2-1.png"><br><br>
+        Now the next part is easy, go to any hex color picker site (I reccomend <a href="https://colordesigner.io/gradient-generator">Gradient Generator</a> because it supports making gradients) and pick your colors of choice.
+        Now once you have them simply replace the old hex codes with the new ones like this:<br><img src="tut2-2.png"><br><br>
+        <hr color="white"><br>
+        <font color="8ab4f8" face="Arial">Lastly, Making BOIII play a sound on startup.</font><font color="white" face="Arial"> Making BOIII play a sound on startup is extremely easy. Just insert the folowing line of code right after the body tag (replacing "whatever.mp3" with any sound effect you want):<br><img src="tut3.png"><br>
+        <br><br><font color="lime" face="comic sans ms">For any questions DM methdealer5916</font>
+        </font>
+    </body>
+</html>
